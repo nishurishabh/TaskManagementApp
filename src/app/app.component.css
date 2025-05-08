@@ -21,6 +21,7 @@ main {
   font-size: 1.15rem;
   margin: 0;
   text-align: center;
+  color: #450d80;
 }
 
 @media (min-width: 768px) {
@@ -38,3 +39,4 @@ main {
     text-align: left;
   }
 }
+
