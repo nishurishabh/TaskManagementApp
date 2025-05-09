@@ -1,8 +1,12 @@
+@if (isAddingTask) {
+  <app-new-task [userID]="userId"  (close)="onCloseDialog()"/>
+}
+
 <section id="tasks">
-  <header>
-    <h2> {{name}}'s Tasks</h2>
-    <menu>
-      <button>
+  <header class="task-header">
+    <h2 class="white-text"> {{name}}'s Tasks</h2>
+    <menu class="task-menu">
+      <button (click)="onAddTask()">
         Add task
      </button>
     </menu>

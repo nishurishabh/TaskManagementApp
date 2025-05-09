@@ -62,3 +62,19 @@ ul {
     width: auto;
   }
 }
+
+.white-text {
+  color: whitesmoke;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem; /* optional, for spacing */
+}
+
+.task-menu {
+  margin: 0; /* remove default menu margin */
+}
+
