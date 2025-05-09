@@ -2,26 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
-## Development server
+# Features Implemented of Angular
+- Component (String Interpolation, Property Binding, Event Binding, Custom Event)
+- Directives (ngModel for Two-way Binding)
+- Signals (for efficient Change detection compared to zone.js) (Only above v16)
+- @if && @for condition rendering with template syntax (only above v17)
+- ngContent for conditional rendering of markup.
+- Angular Forms in FormsModule
+- Services for handling buisness logic.
+- Dependency Injection using constructor and inject()
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# The app 
+- Shows a list of users with their tasks
+- The users can mark the tasks as complete.
+- Add new tasks.
+- The tasks are stored in browser local storage.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img width="1728" alt="Screenshot 2025-05-09 at 5 26 07 PM" src="https://github.com/user-attachments/assets/03fd8f10-0ef3-4c85-918a-9641a2db20e9" />
+<img width="1728" alt="Screenshot 2025-05-09 at 5 25 04 PM" src="https://github.com/user-attachments/assets/0e94471e-cea6-4bb0-854a-b1c5e7db2bf2" />
+<img width="1728" alt="Screenshot 2025-05-09 at 5 26 39 PM" src="https://github.com/user-attachments/assets/2be28de2-c71d-4419-8249-b5e0f2f80d85" />
+<img width="1728" alt="Screenshot 2025-05-09 at 5 27 38 PM" src="https://github.com/user-attachments/assets/be8469dd-2680-4e01-8ce8-9cee54abc548" />
